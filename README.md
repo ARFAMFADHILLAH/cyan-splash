@@ -24,13 +24,13 @@ Dibangun dengan **Next.js 16.3.5** + **React 19** + **TypeScript** + **Tailwind 
 - Nomor & pesan default dikonfigurasi di `src/lib/constants.ts`
 
 ### Profil Instruktur
-- Dua kartu profil: **Aliif H.R.** (@aliifhr_) dan **Ananda Farikha** (@anandafarikha)
+- Dua kartu profil
 - Bio singkat, keahlian (specialties), dan link Instagram masing-masing
 - Avatar placeholder gradasi cyan yang mudah diganti foto asli
 
 ### Galeri & Social Proof
 - Grid 9 foto placeholder gradasi (siap diganti gambar asli)
-- Link ke Instagram & TikTok (`@cyansplash.swimming`)
+- Link ke Instagram & TikTok 
 - Testimoni siswa + orang tua dengan rating bintang (data di `src/data/testimonials.ts`)
 
 ### FAQ Accordion
@@ -85,10 +85,10 @@ Semua nilai kunci dikelola di `src/lib/constants.ts`:
 | Pesan WA default | `SITE.waMessage` | "Halo Cyan Splash, saya tertarik untuk daftar kelas renang privat!" |
 | Alamat kolam | `SITE.address` | Kolam Renang Bojana Tirta, Rawamangun, Jakarta Timur |
 | Google Maps embed | `SITE.mapsEmbedUrl` | placeholder |
-| Instagram | `SITE.instagram` | https://instagram.com/cyansplash.swimming |
-| TikTok | `SITE.tiktok` | https://tiktok.com/@cyansplash.swimming |
-| IG Trainer 1 | `SITE.trainerInstagram1` | https://instagram.com/aliifhr_ |
-| IG Trainer 2 | `SITE.trainerInstagram2` | https://instagram.com/anandafarikha |
+| Instagram | `SITE.instagram` | https://instagram.com/ |
+| TikTok | `SITE.tiktok` | https://tiktok.com/ |
+| IG Trainer 1 | `SITE.trainerInstagram1` | https://instagram.com/|
+| IG Trainer 2 | `SITE.trainerInstagram2` | https://instagram.com/|
 
 Data konten yang bisa diubah kapan saja tanpa menyentuh komponen:
 
